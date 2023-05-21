@@ -1,5 +1,5 @@
 # Arabic Handwritten Digits with Neural Networks
-This project uses Artificial Neural Networks (ANN) and Convolutional Neural Networks (CNN) to recognize handwritten digits. The models are trained and evaluated on the Arabic Handwritten Digits dataset, which contains 70,000 images of handwritten digits (60,000 for training and 10,000 for testing) with their corresponding labels you can check the dataset from kaggle from this [link]('https://www.kaggle.com/datasets/mloey1/ahdd1'). The goal is to train models that can accurately classify new images of handwritten digits.
+This project uses Artificial Neural Networks (ANN) and Convolutional Neural Networks (CNN) to recognize handwritten digits. The models are trained and evaluated on the Arabic Handwritten Digits dataset, which contains 70,000 images of handwritten digits (60,000 for training and 10,000 for testing) with their corresponding labels you can check the dataset from kaggle from this [link](https://www.kaggle.com/datasets/mloey1/ahdd1). The goal is to train models that can accurately classify new images of handwritten digits.
 ## Requirements
 To run this project, you will need:
 •	Python 3.6 or higher
