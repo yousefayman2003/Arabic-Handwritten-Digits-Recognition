@@ -33,10 +33,10 @@ def predict_images(model, directory, shape):
                 # Predicting the img
                 prediction = model.predict(img, verbose=0)
                 digit = np.argmax(prediction)
-                print(f'This Digit is {digit} with accuracy {round(np.max(prediction)*100,2)}')
 
                 # Plotting the img
                 plt.imshow(img.reshape(28,28), cmap='gray')
+                plt.title(f'This Digit is {digit} with accuracy {round(np.max(prediction)*100,2)}', fontweight='bold', fontsize=20)
                 plt.show(block=False)
                 plt.pause(2)
                 plt.close()
