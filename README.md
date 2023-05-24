@@ -24,7 +24,9 @@ python predict.py
 - data.zip: Compressed file containing the training and testing datasets in CSV format.
 - ann_model.h5: Trained ANN model saved in HDF5 format.
 - digits: Directory contains the test images i drawed in paint
+- ann_model.h5: Trained ANN model saved in HDF5 format.
 - cnn_model.h5: Trained CNN model saved in HDF5 format.
+- presentation.pptx: Presentation Of The Project.
 
 ## Results
 The ANN model achieved an accuracy of 98% on the test dataset, while the CNN model achieved an accuracy of 99%. The CNN model outperformed the ANN model in both accuracy and generalizing well to new examples, indicating that the use of convolutional layers is beneficial for image classification tasks. The models can be used to predict the digit in new images of handwritten digits.
